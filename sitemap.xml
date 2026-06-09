@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://wranglerseats.com/</loc><changefreq>daily</changefreq></url>
-  <url><loc>https://wranglerseats.com/best-jeep-wrangler-seats.html</loc><changefreq>weekly</changefreq></url>
-  <url><loc>https://wranglerseats.com/buyers-guide.html</loc><changefreq>weekly</changefreq></url>
-  <url><loc>https://wranglerseats.com/about.html</loc><changefreq>weekly</changefreq></url>
-  <url><loc>https://wranglerseats.com/contact.html</loc><changefreq>weekly</changefreq></url>
-  <url><loc>https://wranglerseats.com/wranglerseats-buying-guide-2026.html</loc><lastmod>2026-05-17</lastmod></url>
-  <url><loc>https://wranglerseats.com/wranglerseats-buyers-handbook-2026.html</loc><lastmod>2026-05-17</lastmod></url>
-  <url><loc>https://wranglerseats.com/smart-wranglerseats-shopping-2026.html</loc><lastmod>2026-05-19</lastmod></url>
-  <url><loc>https://wranglerseats.com/truth-about-wranglerseats-2026.html</loc><lastmod>2026-05-20</lastmod></url>
-  <url><loc>https://wranglerseats.com/wranglerseats-what-buyers-need-2026.html</loc><lastmod>2026-05-26</lastmod></url>
-  <url><loc>https://wranglerseats.com/best-wranglerseats-without-overpaying.html</loc><lastmod>2026-05-28</lastmod></url>
-  <url><loc>https://wranglerseats.com/wranglerseats-guide-2026.html</loc><lastmod>2026-06-01</lastmod></url>
-  <url><loc>https://wranglerseats.com/wranglerseats-practical-guide-2026.html</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://wranglerseats.com/no-bs-wranglerseats-guide-2026.html</loc><lastmod>2026-06-06</lastmod></url>
+  <url>
+    <loc>https://wranglerseats.com/</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
 </urlset>
