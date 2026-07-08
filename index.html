@@ -42,6 +42,7 @@ nav a:hover{color:#c0392b;text-decoration:none}
 .callout p{color:#7b241c;margin:0;font-size:.95em;line-height:1.7}
 .callout-info{background:#eaf4fb;border-left:4px solid #1a5276;padding:16px 20px;border-radius:0 8px 8px 0;margin:1.4em 0}
 .callout-info p{color:#1a3a5c;margin:0;font-size:.95em;line-height:1.7}
+.year-btn{display:inline-block;background:#fff;border:2px solid #c0392b;color:#c0392b;font-weight:700;font-size:.88em;padding:9px 16px;border-radius:8px;text-decoration:none;transition:background .15s,color .15s}.year-btn:hover{background:#c0392b;color:#fff;text-decoration:none}
 .gen-block{background:#fff;border:1px solid #e0e0e0;border-radius:12px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 8px rgba(0,0,0,.04)}
 .gen-block.featured{border:2px solid #c0392b;box-shadow:0 4px 16px rgba(192,57,43,.1)}
 .gen-header{display:flex;align-items:center;gap:14px;margin-bottom:12px;flex-wrap:wrap}
@@ -195,9 +196,19 @@ footer a:hover{color:#e74c3c}
 </div>
 <h2 id="generations">Wrangler Seat Covers by Generation</h2>
 <p>Use these sections to find the right covers for your specific rig. Each section includes our top pick for that generation, key fitment notes, and direct links to shop.</p>
+<!-- YEAR-BUTTONS-2026-07-08 -->
+<div class="year-select-bar" style="display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 28px">
+  <a href="#yj-block" class="year-btn">YJ &middot; 1987&ndash;95</a>
+  <a href="#tj-block" class="year-btn">TJ &middot; 1997&ndash;2006</a>
+  <a href="#jk-block" class="year-btn">JK/JKU &middot; 2007&ndash;18</a>
+  <a href="#jl-block" class="year-btn">JL/JLU &middot; 2018&ndash;Present</a>
+  <a href="#4xe-block" class="year-btn">4XE &middot; 2021&ndash;Present</a>
+  <a href="#gladiator-block" class="year-btn">Gladiator JT &middot; 2019&ndash;Present</a>
+</div>
+
 </div>
 <!-- YJ Block -->
-<div class="gen-block">
+<div class="gen-block" id="yj-block">
   <div class="gen-header"><div class="gen-tag">YJ Generation</div><div class="gen-years">1987 -- 1995</div></div>
   <h3>Best Jeep Wrangler YJ Seat Covers (1987--1995)</h3>
   <p>The original square-headlight Wrangler. YJ seats are relatively flat and simple compared to modern Wrangler generations, which makes them easier to cover but also means fewer aftermarket options exist. Many YJ owners have upgraded to aftermarket high-back bucket seats (Corbeau, Smittybilt, OEM TJ swaps) which opens up additional cover compatibility.</p>
@@ -211,7 +222,7 @@ footer a:hover{color:#e74c3c}
   <a href="https://bartact.com/collections/seat-covers" target="_blank" rel="noopener" class="gen-link">See Bartact Seat Cover Catalog</a>
 </div>
 <!-- TJ Block -->
-<div class="gen-block">
+<div class="gen-block" id="tj-block">
   <div class="gen-header"><div class="gen-tag">TJ Generation</div><div class="gen-years">1997 -- 2006</div></div>
   <h3>Best Jeep Wrangler TJ Seat Covers (1997--2006)</h3>
   <p>The TJ brought round headlights back and introduced a more refined Wrangler interior than the YJ. TJ owners are among the most passionate Wrangler enthusiasts -- many TJs are heavily modified daily drivers that accumulate serious seat wear over two or three decades of use. Quality seat covers protect these long-term investments.</p>
@@ -225,7 +236,7 @@ footer a:hover{color:#e74c3c}
   <a href="https://bartact.com/collections/seat-covers" target="_blank" rel="noopener" class="gen-link">Shop Bartact for TJ Wrangler</a>
 </div>
 <!-- JK Block -->
-<div class="gen-block featured">
+<div class="gen-block featured" id="jk-block">
   <div class="gen-header"><div class="gen-tag">JK / JKU Generation</div><div class="gen-years">2007 -- 2018 &middot; Most Popular</div></div>
   <h3>Best Jeep Wrangler JK and JKU Seat Covers (2007--2018)</h3>
   <p>The JK is the most common Wrangler on the road and has the broadest aftermarket seat cover selection of any Wrangler generation. JK seats are more refined than TJ but less complex than JL, creating an excellent balance of options, pricing, and genuine custom-fit availability. This is the generation where Bartact's MOLLE tactical covers established themselves as the category benchmark.</p>
@@ -240,7 +251,7 @@ footer a:hover{color:#e74c3c}
   <a href="https://bartact.com/collections/jeep-wrangler-jk-seat-covers" target="_blank" rel="noopener" class="gen-link">Shop Bartact JK/JKU Covers</a>
 </div>
 <!-- JL Block -->
-<div class="gen-block featured">
+<div class="gen-block featured" id="jl-block">
   <div class="gen-header"><div class="gen-tag">JL / JLU Generation</div><div class="gen-years">2018 -- Present &middot; Current Generation</div></div>
   <h3>Best Jeep Wrangler JL and JLU Seat Covers (2018--Present)</h3>
   <p>The current-generation Wrangler JL brought the most significant Wrangler interior upgrade in history. JL seats feature deeper bolstering, more refined headrests, updated side-curtain airbag placement, and options for heated seats, ventilation, and USB charging. This complexity is precisely why custom-patterned covers matter even more for the JL than older generations -- a universal cover simply cannot accommodate all these integrated features correctly.</p>
@@ -255,7 +266,7 @@ footer a:hover{color:#e74c3c}
   <a href="https://bartact.com/collections/jeep-wrangler-jl-seat-covers" target="_blank" rel="noopener" class="gen-link">Shop Bartact JL/JLU Covers</a>
 </div>
 <!-- 4XE Block -->
-<div class="gen-block">
+<div class="gen-block" id="4xe-block">
   <div class="gen-header"><div class="gen-tag">Wrangler 4XE Plug-in Hybrid</div><div class="gen-years">2021 -- Present</div></div>
   <h3>Best Jeep Wrangler 4XE Seat Covers (2021--Present)</h3>
   <p>The plug-in hybrid Wrangler 4XE has become one of Jeep's best-selling configurations since its 2021 introduction. The 4XE shares JL seat architecture in the front row and JLU rear seat geometry in standard four-door configurations. The hybrid drivetrain does not meaningfully affect seat cover selection or installation in most configurations.</p>
@@ -269,7 +280,7 @@ footer a:hover{color:#e74c3c}
   <a href="https://bartact.com/collections/jeep-wrangler-jl-seat-covers" target="_blank" rel="noopener" class="gen-link">Shop Bartact 4XE Covers</a>
 </div>
 <!-- Gladiator Block -->
-<div class="gen-block">
+<div class="gen-block" id="gladiator-block">
   <div class="gen-header"><div class="gen-tag">Gladiator JT Pickup</div><div class="gen-years">2019 -- Present</div></div>
   <h3>Best Jeep Gladiator JT Seat Covers (2019--Present)</h3>
   <p>The Gladiator pickup uses JL-derived front seats but has a completely unique rear seat arrangement above the truck bed. Front covers from Bartact's JL line fit Gladiator front seats correctly. Rear seat covers require Gladiator-specific patterning because the Gladiator rear seat sits above the rear wheel wells in a compact configuration that no other Wrangler generation shares.</p>
